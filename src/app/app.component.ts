@@ -2,9 +2,7 @@ import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'my-app',
-  template: `<app-title [subtitle]="subtitle"></app-title>
-  <app-contact></app-contact>`
+  templateUrl: 'app/app.component.html',
 })
 export class AppComponent {
-  subtitle='(v1)';
 }

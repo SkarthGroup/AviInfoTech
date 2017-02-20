@@ -1,20 +1,19 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AlertModule, CarouselModule } from 'ng2-bootstrap/ng2-bootstrap';
-import { ContactModule } from './contact/contact.module';
+import { ThemeModule } from './theme/theme.module'
+import { PagesModule } from './pages/pages.module'
+
 
 import { AppComponent } from './app.component';
-import { TitleComponent } from './title.component';
 
-import { HighlightDirective } from './highlight.directive';
-
-import { UserService } from './user.service';
+/* Routing Module */
+import { AppRoutingModule }   from './app-routing.module';
 
 @NgModule({
-  imports: [BrowserModule, ContactModule, AlertModule.forRoot(), CarouselModule.forRoot()],
-  declarations: [AppComponent, HighlightDirective, TitleComponent],
-  providers: [UserService],
+  imports: [BrowserModule, AppRoutingModule, ThemeModule, PagesModule],
+  declarations: [AppComponent],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

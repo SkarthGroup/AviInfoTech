@@ -1,3 +1,170 @@
-h2{
-    color: red;
+#footer{
+    background-color:#111111;
+    /*margin-top:20px;*/
+}
+.links{
+    color:#949494;
+    font-size:12px;
+}
+.email h4{
+    padding-top:16px;
+}
+
+.email p a{
+    text-decoration:none;
+    cursor:pointer;
+    color:#949494;
+    transition:.5s ease-in-out;
+}
+.email p a:hover{
+    color:#fff;
+}
+
+.customercare h4{
+    padding-top:15px;
+}
+
+.timing h4{
+    padding-top:16px;
+}
+
+.address h4{
+    padding-top:16px;
+}
+
+.Useful ul {
+    padding:0px;
+}
+
+.Useful ul li{
+    list-style:none;
+    padding-top:16px;
+}
+
+.Useful ul li a{
+    text-decoration:none;
+    color:#949494;
+    transition:.5s ease-in-out;
+}
+
+.Useful h3{
+    color:#26afd5;
+}
+
+.Useful ul li a:hover{
+    color:#fff;
+}
+
+.contact h3{
+    color:#26afd5;
+}
+
+.Industries ul {
+    padding:0px;
+}
+
+.Industries ul li{
+    list-style:none;
+    padding-top:16px;
+}
+
+.Industries ul li a{
+    text-decoration:none;
+    color:#949494;
+    transition:.5s ease-in-out;
+}
+
+.Industries h3{
+    color:#26afd5;
+}
+
+.Industries ul li a:hover{
+    color:#fff;
+}
+
+.connect ul {
+    padding:0px;
+}
+
+.connect ul li{
+    list-style:none;
+    padding-top:16px;
+}
+
+.connect ul li a{
+    text-decoration:none;
+    color:#949494;
+    transition:.5s ease-in-out;
+}
+
+.connect h3{
+    color:#26afd5;
+}
+
+.connect ul li img{
+    margin:1px 4px 1px 0px;
+    border:solid 1px #444444;
+}
+
+.connect ul li a:hover{
+    color:#fff;
+}
+
+.connect ul li img:hover{
+    border-color:#fff;
+}
+
+.copyright{
+    text-align:center;
+    color:#949494;
+    font-size:10px;
+}
+
+.input-group[class*="col-"]{
+    padding-right: 15px;
+    padding-left: 15px;
+ }
+
+.form-horizontal .control-label{
+    text-align:left;
+}
+
+hr{
+    max-width:50px;
+    border-color:#f05f40;
+    border-width:3px;
+}
+
+.let p{
+    font-family:"Segoe UI", sans-serif;
+    font-size:15px;
+}
+
+.payment-option{
+    border:2px solid #fff !important;
+    border-radius:12px;
+}
+
+.payment-option h4{
+    color:#2FDD6E;
+    border-bottom:dotted #fff !important;
+    text-align:center;
+    padding-bottom:5px;
+}
+
+.payment-option ul{
+    padding-left:0px;
+    text-align:center;
+}
+
+.payment-option ul li{
+    list-style:none;
+    display:inline-block;
+    margin-top:10px;
+    margin-left:10px;
+}
+
+#MyLiveChatContainer{
+    position:relative;
+    top:45px;
 }

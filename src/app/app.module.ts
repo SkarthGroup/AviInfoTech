@@ -8,7 +8,7 @@ import { PagesModule } from './pages/pages.module'
 import { AppComponent } from './app.component';
 
 /* Routing Module */
-import { AppRoutingModule }   from './app-routing.module';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   imports: [BrowserModule, AppRoutingModule, ThemeModule, PagesModule],

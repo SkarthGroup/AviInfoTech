@@ -7,10 +7,11 @@ import { ContactUsComponent } from './contact-us.component/contact-us.component'
 import { PricingComponent } from './pricing.component/pricing.component';
 import { PaymentService } from '../services/payment.service';
 import { FormComponent } from './form.component/form.component';
+import{DevelopmentComponent} from'./development.component/development.component';
 
 @NgModule({
     imports: [PagesRoutingModule],
-    declarations: [HomeComponent, ContactUsComponent, PricingComponent, FormComponent],
+    declarations: [HomeComponent, ContactUsComponent, PricingComponent, FormComponent, DevelopmentComponent],
     providers: [PaymentService]
 })
 export class PagesModule {

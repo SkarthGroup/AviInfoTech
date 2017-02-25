@@ -1,0 +1,125 @@
+.ser_offer img{
+    margin:0 auto;
+}
+
+.ser_offer h3{
+    font-size:16px;
+    font-weight:bold;
+}
+
+.ser_offer p{
+    color:#555;
+    font-size:14px;
+}
+
+#corporate  span{
+    color:#b651b0;    
+}
+
+.development-pro{
+    background:url(/content/images/development/home-original-image-3.jpg)
+}
+
+.development-pro h2{
+    font-size:35px;
+    font-weight:bold;
+    color:#1d8064;
+}
+
+.development-pro h4{
+    font-size:19px;
+    font-weight:bold;
+    color:#b651b0;
+}
+
+.development-pro p{
+    color:#A6B3B6;
+    font-size:14px;
+}
+
+.development-pro span{
+    font-size:60px;
+    line-height:1.5em;
+    font-family:'Montserrat',sans-serif;
+    color:#3bbc0c;
+    font-weight:700;
+}
+.top-pack{
+    margin:50px 0px 50px 0px;
+    text-align:center;
+}
+
+.top-pack h4{
+    border:1px solid #b651b0;
+    text-decoration:none;
+    background-color:#b651b0;
+    color:#fff;
+    /*text-transform:uppercase;*/
+    display:inline-block;
+    width:auto;
+    height:55px;
+    line-height:55px;
+    padding:0px 28px;
+    font-size:18px;
+    font-weight:600;
+    font-family:Montserrat,sans-serif;
+    font-style:normal;
+    /*letter-spacing:1px;*/
+    text-shadow:none;
+    margin-bottom:30px;
+    text-align:center;
+}
+
+.top-pack p{
+    color:#555;
+    letter-spacing:0px;
+    font-size:16px;
+    font-family:Open Sans, sans-serif;
+    text-align:center;
+}
+
+.top-pack span{
+    font-weight:bold;
+    color:#453c3c;
+}
+
+.looking-web{
+    background:url(/content/images/development/Home-Original-Parallax-1.jpg);
+    min-height:250px;
+}
+
+.looking-web h1{
+    font-weight:700;
+    color:ivory;
+}
+
+.looking-web p{
+    font-size:17px;
+    color:rgb(255, 255, 255);
+    font-weight:200;
+}
+
+#contact-button a{
+    border:1px solid #b651b0;
+    text-decoration:none;
+    background-color:#ffffff;
+    color:#2e2e2e;
+    text-transform:uppercase;
+    display:inline-block;
+    width:auto;
+    height:43px;
+    line-height:43px;
+    padding:0px 28px;
+    font-size:12px;
+    font-weight:600;
+    font-family:Montserrat,sans-serif;
+    font-style:normal;
+    letter-spacing:1px;
+    text-shadow:none;
+    margin-bottom:30px;
+}
+
+#contact-button a:hover{
+    background-color:#16171d;
+    color:#ffffff;
+}

@@ -13,10 +13,12 @@ import { TermComponent } from './term.component/term.component';
 import { PrivacyComponent } from './privacy.component/privacy.component';
 import { RefundComponent } from './refund.component/refund.component';
 import { AboutComponent } from './about.component/about.component';
+import { LetsComponent } from './lets.component/lets.component';
+
 
 @NgModule({
     imports: [PagesRoutingModule],
-    declarations: [HomeComponent, ContactUsComponent, PricingComponent, FormComponent, DevelopmentComponent, TranslationComponent, TermComponent, PrivacyComponent, RefundComponent, AboutComponent],
+    declarations: [HomeComponent, ContactUsComponent, PricingComponent, FormComponent, DevelopmentComponent, TranslationComponent, TermComponent, PrivacyComponent, RefundComponent, AboutComponent, LetsComponent],
     providers: [PaymentService]
 })
 export class PagesModule {

@@ -12,6 +12,8 @@ import { TermComponent } from './term.component/term.component';
 import { PrivacyComponent } from './privacy.component/privacy.component';
 import { RefundComponent } from './refund.component/refund.component';
 import { AboutComponent } from './about.component/about.component';
+import { LetsComponent } from './lets.component/lets.component';
+
 
 
 export const routes: Routes = [
@@ -24,7 +26,8 @@ export const routes: Routes = [
     { path: 'translation', component: TranslationComponent },
     { path: 'term', component: TermComponent },
     { path: 'privacy', component: PrivacyComponent },
-    { path: 'refund', component: RefundComponent }
+    { path: 'refund', component: RefundComponent },
+    { path: 'lets', component: LetsComponent }
 
 ];
 
